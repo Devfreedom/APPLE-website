@@ -366,13 +366,9 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     /* 4 equal columns */
     gap: 0;
-<<<<<<< HEAD
-    left: 400px;  }
-margin-top: 
-=======
-    left: 400px; margin-top: 
->>>>>>> 706fb3a (change buttons and a labels)
-    50px;  }
+    left: 400px;
+    margin-top: 50px;
+}
     .button3 { 
     position: absolute;
     font-weight: 700;
