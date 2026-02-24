@@ -349,3 +349,33 @@ nav {
     /* 4 equal columns */
     gap: 0;
     left: 400px;  }
+margin-top: 
+    50px;  }
+    .button3 { 
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(44, 73, 199);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    top: 280px;
+ margin-left:30px;
+} 
+.div-items { display: grid; margin-top: 50px;  align-content: center; left: 500px;}
+#learn2 { position: absolute;
+    text-decoration: none
+    ;  color: rgb(44, 73, 199);
+    cursor: pointer; margin-right: 100px; margin-left:35px; }
+    #image4 { width: 120px; }
+    .grid-h2 { padding-left: 30px;  }
+    .grid-p1  { padding-left: 30px;  }
+    .grid-p2  { padding-left: 30px;  }
+    #learn2-1 { position: absolute; top: 310px
+    ;  color: rgb(44, 73, 199);
+    cursor: pointer; margin-right: 100px; margin-left:35px; }
+    #para1 { text-align: center; }
+    .person2 { justify-content: center; margin-left: 120px; }
