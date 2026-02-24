@@ -1,11 +1,12 @@
+body { overflow-x: hidden; }
 nav {
     display: flex;
     position: absolute;
     width: 998px;
     height: 44px;
-    left: 461px;
+    left: 350px;
     top: 10px;
-    gap: 20px;
+    gap: 30px;
     margin-top: 15px;
 }
 
@@ -48,7 +49,7 @@ nav {
     gap: -500px;
     top: 62px;
     align-items: center;
-    left: 350px;
+    left: 430px;
 }
 
 .nav2-item {
@@ -91,6 +92,8 @@ nav {
     animation-name: slideInLeft;
     animation-delay: 10s;
     animation: zoom-in 2s ease-out;
+    animation-delay: 3s;
+
 }
 
 #thirdgen {
@@ -164,6 +167,7 @@ nav {
     top: 20.78px;
     width: 250px;
     animation: zoom-in1 2s ease-out;
+    animation-delay: 3s;
 }
 
 #airpod2 {
@@ -173,6 +177,7 @@ nav {
     left: 890.84px;
     top: 250.96px;
     animation: zoom-in2 2s ease-out;
+    animation-delay: 3s;
 }
  @keyframes zoom-in {   from {
                 opacity: 0;
@@ -204,7 +209,7 @@ nav {
             to { height: 990px;
                 width: 500px;
                transform: translateY(3000);
-               left: 1200px;
+               left: 1100px;
             } }
 
 
@@ -216,7 +221,7 @@ nav {
   
     
     height: 800px;
-    animation: slideInLeft 0.8s ease-out;
+    animation: slideInLeft 1s ease-out;
 }
 
 #earphone {
@@ -224,6 +229,8 @@ nav {
     position: absolute;
     width: 450px;
     left: 580px;
+      animation: zoomin4 5s ease-out;
+      animation-delay: 2s;
 }
 
 #Fromprice2 {
@@ -249,7 +256,8 @@ nav {
     letter-spacing: -0.230722px;
     left: 280px;
     padding-top: 100px;
-     animation: zoom-in3 1s ease-out;
+     animation: zoom-in3 5s ease-out;
+     animation-delay: 2s;
      
 }
 
@@ -297,17 +305,27 @@ nav {
 @keyframes zoom-in3 {   from {
                 opacity: 0;
           font-size: 170px;
+          left: 290px;
             }
-            to {
+            to { left: 450px;
                 opacity: 1;
-               font-size: 150px;
+               font-size: 120px;
             } }
+    @keyframes zoomin4 { from { padding-top: 50px;
+    width: 450px;
+    left: 580px;  
+ transform: translateX(10);
+               transform: translateY(1);
+               padding-top: 50px;
+} 
+             
+             to { width: 800px; left: 400px; 
+             transform: translateY(1000);
+              padding-top: -100px; margin-top: -500px; }  }
 
 .section3 {
     border: #1D1D1F;
-    margin-top: 100px;
-    border-style: solid;
-    border-color: rgb(28, 2, 2);
+    margin-top: 80px;
     width: 1490px;
     position: relative;
     height: 720px;
@@ -348,8 +366,12 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     /* 4 equal columns */
     gap: 0;
+<<<<<<< HEAD
     left: 400px;  }
 margin-top: 
+=======
+    left: 400px; margin-top: 
+>>>>>>> 706fb3a (change buttons and a labels)
     50px;  }
     .button3 { 
     position: absolute;
