@@ -395,5 +395,7 @@ nav {
     #learn2-1 { position: absolute; top: 310px
     ;  color: rgb(44, 73, 199);
     cursor: pointer; margin-right: 100px; margin-left:35px; }
-    #para1 { text-align: center; }
-    .person2 { justify-content: center; margin-left: 10px; }
+    
+    #para1 { text-align: center;  }
+    .person2 { justify-content: center; margin-left: 119px;  }
+
